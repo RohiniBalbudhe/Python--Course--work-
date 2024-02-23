@@ -1,0 +1,75 @@
+# GIT installation  on MAC PC
+
+# Download for macOS
+
+https://formulae.brew.sh/formula/
+
+There are several options for installing Git on macOS. Note that any non-source distributions are provided by third parties, and may not be up to date with the latest source release.
+
+**Choose one of the following options for installing Git on macOS:**
+
+### **Homebrew**
+
+Install [homebrew](https://brew.sh/) if you don't already have it, then:
+
+`$ brew install git`
+
+### **MacPorts**
+
+Install [MacPorts](https://www.macports.org/) if you don't already have it, then:
+
+`$ sudo port install git`
+
+### **Xcode**
+
+Apple ships a binary package of Git with [Xcode](https://developer.apple.com/xcode/).
+
+### **Binary installer**
+
+Tim Harper provides an [installer](https://sourceforge.net/projects/git-osx-installer/) for Git. The latest version is [2.33.0](https://sourceforge.net/projects/git-osx-installer/files/git-2.33.0-intel-universal-mavericks.dmg/download?use_mirror=autoselect), which was released over 2 years ago, on 2021-08-30.
+
+### **Building from Source**
+
+If you prefer to build from source, you can find tarballs [on kernel.org](https://www.kernel.org/pub/software/scm/git/). The latest version is [2.43.2](https://www.kernel.org/pub/software/scm/git/git-2.43.2.tar.gz).
+
+### **Installing git-gui**
+
+If you would like to install [git-gui](https://git-scm.com/docs/git-gui/) and [gitk](https://git-scm.com/docs/gitk/), git's commit GUI and interactive history browser, you can do so using [homebrew](https://brew.sh/)
+
+`$ brew install git-gui`
+
+...or create a new repository on the commar echo "# git-course" > README. md
+
+Untracked files:
+
+echo "# git-course" > README. md git init
+git add README. md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github. com: rohinibalbudhe/git-course.git git push -u origin main
+...or push an existing repository from the command line git remote add origin git@github. com: rohinibalbudhe/git-course.git 
+
+git branch -M main 
+
+git push -u origin main
+
+(use "git add ‹file>..." to include in what will be committed)
+
+README. md
+
+git-course % git add README
+
+|  |  |
+| --- | --- |
+|  | git init |
+|  | git add README. md |
+|  | git commit -m "first commit" |
+|  | git branch -M main |
+|  | git remote add origin git@github. com: navinredd |
+|  | git push -u origin main |
+
+...or push an existing repository from the co
+
+git remote add origin git@github. com: rohinibalbudhe-course
+
+git branch -M main git push -u origin main
